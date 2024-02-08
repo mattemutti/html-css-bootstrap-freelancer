@@ -109,6 +109,12 @@ DEBUG
     background-color: lightsalmon;
 }
 
+.debug .footer_location, .footer_social, .footer_info, .footer_bottom{
+    height: 100px;
+    background-color: wheat;
+}
+
+
 /******************************************************************
 HEADER
 ***************************************************************/
