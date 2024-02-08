@@ -74,6 +74,7 @@ DEBUG
 .debug .icon_star {
     height: 100px;
     background-color: black;
+    color: white;
 
 }
 
@@ -96,24 +97,31 @@ DEBUG
 }
 
 
-.debug .ab_txt_ 
-{
+.debug .ab_txt_l {
     height: 150px;
     background-color: yellow;
 }
 
-.debug .ab_txt_ {
+.debug .ab_txt_r {
     height: 150px;
     background-color: rgb(0, 85, 255);
 }
 
-.debug input, h4{
-    background-color: lightsalmon;
+.debug input,
+h4 {
+    background-color: rgb(122, 133, 255);
 }
 
-.debug .footer_location, .footer_social, .footer_info, .footer_bottom{
+.debug .footer_location,
+.footer_social,
+.footer_info,
+.footer_bottom {
     height: 100px;
     background-color: wheat;
+}
+
+.debug .user_data{
+    background-color: orange;
 }
 
 
@@ -143,25 +151,52 @@ MAIN
 }
 
 
-.container_80{
+.container_80 {
     margin: auto;
     width: 80%;
 }
 
-
-.btn_send{
-
+.{
+    width: 100%;
 }
+
+
+.sms_contact{
+
+    height: 200px;
+    
+}
+
+
+.btn_send {}
 
 
 /******************************************************************
 FOOTER
 ***************************************************************/
 
-.footer_top_bg{
+.footer_top_bg {
     background-color: var(--f-footer-top-bg);
 }
 
-.footer_bottom_bg{
+.footer_bottom_bg {
     background-color: var(--f-footer-bottom-bg);
+}
+
+
+
+
+/******************************************************************
+MEDIA QUERY
+***************************************************************/
+
+
+@media screen and (min-width: 992px) {
+
+    .off_lg {
+        display: none;
+    }
+
+
+
 }
