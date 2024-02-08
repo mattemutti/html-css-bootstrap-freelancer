@@ -4,7 +4,31 @@
 ***************************************************************/
 
 
-.debug{
-    
+.debug *{
+
+border: 1px dashed;
     
 }
+
+.debug .h_100px{
+    height: 100px;
+}
+
+.debug .h_50px{
+    height: 50px;
+}
+
+.debug .bg_color_test1{
+    background-color: blue;
+}
+
+.debug .bg_color_test2{
+    background-color: orange;
+}
+
+
+
+/******************************************************************
+   HEADER
+***************************************************************/
+
