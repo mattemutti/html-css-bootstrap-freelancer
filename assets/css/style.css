@@ -2,7 +2,7 @@
 RULE FOR HALL
 ***************************************************************/
 
-:root{
+:root {
 
     --f-nav-bg: #2c3e50FF;
     --f-jumbotron-bg: #1abc9cFF;
@@ -15,90 +15,95 @@ DEBUG
 ***************************************************************/
 
 
-.debug *{
+.debug * {
 
-border: 1px dashed;
-    
+    border: 1px dashed;
+
 }
 
-.debug .h_100px{
+.debug .h_100px {
     height: 100px;
 }
 
-.debug .h_50px{
+.debug .h_50px {
     height: 50px;
 }
 
-.debug .bg_color_test1{
+.debug .bg_color_test1 {
     background-color: blue;
 }
 
-.debug .bg_color_test2{
+.debug .bg_color_test2 {
     background-color: orange;
 }
 
-.debug .bg_color_test3{
+.debug .bg_color_test3 {
     background-color: rgb(87, 51, 138);
 }
 
-.debug .bg_color_test4{
+.debug .bg_color_test4 {
     background-color: rgb(115, 89, 40);
 }
 
-.debug .bg_color_test5{
+.debug .bg_color_test5 {
     background-color: rgb(169, 46, 46);
 }
 
-.debug .bg_color_test6{
+.debug .bg_color_test6 {
     background-color: rgb(70, 183, 57);
 }
 
-.debug .jumbotron{
-   
-    
-}
+.debug .jumbotron {}
 
-.debug .img_jumbo{
+.debug .img_jumbo {
     width: 400px;
     height: 400px;
     background-color: red;
-    
+
 }
 
 
-.debug .jumbo_title{
-    
+.debug .jumbo_title {
     height: 100px;
     background-color: rgb(0, 255, 42);
-    
+
 }
 
-.debug .jumbo_icon{
-    
+.debug .icon_star {
+    height: 100px;
+    background-color: black;
+
+}
+
+.debug .jumbo_client {
     height: 100px;
     background-color: rgb(0, 255, 42);
-    
+
 }
 
-.debug .jumbo_client{
-    
-    height: 100px;
-    background-color: rgb(0, 255, 42);
-    
-}
-
-.debug h2{
+.debug h2 {
     height: 150px;
     background-color: var(--f-nav-bg);
 }
 
-.debug .img_portfolio{
-    
+.debug .img_portfolio {
+
     height: 250px;
     background-color: orange;
-    
+
 }
 
+
+.debug .ab_txt_ 
+{
+    height: 150px;
+    background-color: yellow;
+}
+
+.debug .ab_txt_ {
+    height: 150px;
+    background-color: rgb(0, 85, 255);
+}
 
 
 /******************************************************************
@@ -106,7 +111,7 @@ HEADER
 ***************************************************************/
 
 
-header{
+header {
     background-color: var(--f-nav-bg);
 }
 
@@ -117,6 +122,17 @@ MAIN
 ***************************************************************/
 
 
-.jumbotron{
+.jumbotron {
     background-color: var(--f-jumbotron-bg);
+}
+
+
+.about {
+    background-color: var(--f-jumbotron-bg);
+}
+
+
+.container_80{
+    margin: auto;
+    width: 80%;
 }
