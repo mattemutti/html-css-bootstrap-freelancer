@@ -6,6 +6,8 @@ RULE FOR HALL
 
     --f-nav-bg: #2c3e50FF;
     --f-jumbotron-bg: #1abc9cFF;
+    --f-footer-top-bg: #3a546dFF;
+    --f-footer-bottom-bg: #2c3e50FF;
 }
 
 
@@ -149,4 +151,17 @@ MAIN
 
 .btn_send{
 
+}
+
+
+/******************************************************************
+FOOTER
+***************************************************************/
+
+.footer_top_bg{
+    background-color: var(--f-footer-top-bg);
+}
+
+.footer_bottom_bg{
+    background-color: var(--f-footer-bottom-bg);
 }
