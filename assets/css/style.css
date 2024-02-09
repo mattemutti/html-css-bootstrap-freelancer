@@ -208,6 +208,11 @@ FOOTER
 }
 
 
+.link_footer{
+    color: var(--f-jumbotron-bg);
+    text-decoration: none;
+}
+
 
 
 /******************************************************************
