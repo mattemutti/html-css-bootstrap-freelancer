@@ -130,8 +130,14 @@ HEADER
 ***************************************************************/
 
 
-header {
+.nav_bg {
     background-color: var(--f-nav-bg);
+    
+}
+
+.icon_color_white{
+    
+    color: white;
 }
 
 
