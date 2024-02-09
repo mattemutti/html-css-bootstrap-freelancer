@@ -55,7 +55,7 @@ DEBUG
     background-color: rgb(70, 183, 57);
 }
 
-.debug .jumbotron {}
+.debug #jumbotron {}
 
 .debug .img_jumbo {
     width: 400px;
@@ -141,23 +141,13 @@ MAIN
 ***************************************************************/
 
 
-.jumbotron {
+#jumbotron {
     background-color: var(--f-jumbotron-bg);
 }
 
 
-.about {
+#about {
     background-color: var(--f-jumbotron-bg);
-}
-
-
-.container_80 {
-    margin: auto;
-    width: 80%;
-}
-
-.{
-    width: 100%;
 }
 
 
