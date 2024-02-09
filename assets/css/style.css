@@ -8,6 +8,8 @@ RULE FOR HALL
     --f-jumbotron-bg: #1abc9cFF;
     --f-footer-top-bg: #3a546dFF;
     --f-footer-bottom-bg: #2c3e50FF;
+    --f-lighter: white;
+
 }
 
 
@@ -131,7 +133,7 @@ Utility
 
 img{
     width: 100%;
-    
+
 }
 
 
@@ -192,7 +194,14 @@ MAIN
 }
 
 
-.btn_send {}
+.btn_send {
+    background-color: var(--f-jumbotron-bg);
+    color: var(--f-lighter);
+    border-radius: 0.3rem;
+    border: none;
+    height: 2rem;
+    width: 4rem;
+}
 
 
 /******************************************************************
