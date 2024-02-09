@@ -57,26 +57,12 @@ DEBUG
 
 .debug #jumbotron {}
 
-.debug .img_jumbo {
-    width: 400px;
-    height: 400px;
-    background-color: red;
-
-}
-
-
-.debug .jumbo_title {
+.debug .debug .jumbo_title {
     height: 100px;
     background-color: rgb(0, 255, 42);
-
 }
 
-.debug .icon_star {
-    height: 100px;
-    background-color: black;
-    color: white;
 
-}
 
 .debug .jumbo_client {
     height: 100px;
@@ -120,7 +106,7 @@ h4 {
     background-color: wheat;
 }
 
-.debug .user_data{
+.debug .user_data {
     background-color: orange;
 }
 
@@ -132,14 +118,8 @@ HEADER
 
 .nav_bg {
     background-color: var(--f-nav-bg);
-    
-}
 
-.icon_color_white{
-    
-    color: white;
 }
-
 
 
 /******************************************************************
@@ -151,16 +131,29 @@ MAIN
     background-color: var(--f-jumbotron-bg);
 }
 
+.img_jumbo {
+    height: 300px;
+}
+
+.jumbo_title{
+
+    font-size: 200%;
+}
+
+.icon_star {
+    color: white;
+    font-size: 300%;
+}
 
 #about {
     background-color: var(--f-jumbotron-bg);
 }
 
 
-.sms_contact{
+.sms_contact {
 
     height: 200px;
-    
+
 }
 
 
@@ -191,6 +184,12 @@ MEDIA QUERY
 
     .off_md {
         display: none;
+    }
+
+    .jumbo_title{
+
+
+        font-size: 400%;
     }
 
 
