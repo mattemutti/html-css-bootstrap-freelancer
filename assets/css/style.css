@@ -108,7 +108,7 @@ h4 {
 .debug .footer_location,
 .footer_social,
 .footer_info,
-.footer_bottom {
+.footer_bottom, {
     height: 100px;
     background-color: wheat;
 }
@@ -131,10 +131,15 @@ Utility
     font-size: 300%;
 }
 
+.icon_star_black{
+    font-size: 300%;
+}
+
 img{
     width: 100%;
 
 }
+
 
 
 /******************************************************************
@@ -168,12 +173,6 @@ MAIN
 /*****PORTFOLIO**********************************************************/
 
 
-.icon_star_portfolio {
-    font-size: 300%;
-}
-
-
-
 
 /*****ABOUT**********************************************************/
 
@@ -183,15 +182,7 @@ MAIN
 }
 
 
-
 /*****CONTACT**********************************************************/
-
-
-.sms_contact {
-
-    height: 200px;
-
-}
 
 
 .btn_send {
